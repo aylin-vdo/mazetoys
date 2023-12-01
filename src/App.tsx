@@ -13,7 +13,7 @@ import Game from "./Game";
 function App() {
 	return (
 		<>
-			<BrowserRouter>
+			<BrowserRouter basename={"/mazetoys/"}>
 				<Routes>
 					<Route
 						path="/"
